@@ -1,0 +1,1018 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Calibri', 'Trebuchet MS', sans-serif;
+  }
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+  li{list-style: none;}
+
+.mainContainer{
+    width: 100%;
+    height: auto;
+}
+/***** Header Start *****/
+
+.navbar{
+    height: 90px !important;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #ffffff !important;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    text-align: center;  
+    color: white;
+    font-weight: bold;
+    line-height: 1.3;
+    border-bottom: 1px solid lightgray;
+}
+.one{
+    flex: 0.5 ;
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+}
+.logo{
+    width: 140px;
+    height:70px;
+    margin: 0px 0px 0px 10px;
+
+}
+.dropdown .dropdown-item{
+    text-align: center;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-size: 11px;
+    line-height: 50px;
+    padding: 10px;
+}
+.signIn{
+    letter-spacing: 2px !important;
+    font-weight: bold !important;
+    font-size: 12px !important;
+}
+.join{
+    padding: 13px 30px 13px 30px;
+    background-color: #206eb6;
+    border: 1px solid #206eb6;
+    color: #fff;
+}
+
+
+/****** Header End******/
+
+/***** Image Section*****/
+.section{
+    width: 100% !important;
+    height: 800px;
+    background-color: lightgray;
+    background-image: url("../images/bg-image.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+.cent-sec{
+    width:85%;
+    height: 350px;
+    /* background-color: lightblue; */
+    margin: 18% 10% 12% 8%;
+    color: #fff;
+}
+.cent-sec h1{
+    text-align: center;
+    color: #fff;
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cent-sec h2{
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+}
+.cent-sec input{
+    width: 350px;
+    margin-top: 10px;
+    padding: 12px;
+    border: 1px solid #fff;
+}
+.cent-sec button{
+    margin-left: 15px;
+    margin-top: 10px;
+    padding: 15px 45px 14px 45px;
+    background-color: #206eb6;
+    border: 1px solid #206eb6;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+
+/***** Image Section End*****/
+
+/**** Explore Opportunities Start ****/
+.expl-main-div{
+    width: 100% !important;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color:  lightgoldenrodyellow !important; */
+}
+.expl-main-div .row .expl-one{
+    width:100%;
+    height: auto;
+    /* background-color: lightgoldenrodyellow; */
+}
+.expl-main-div .row .expl-one .expl-heading{
+    width: auto;
+    height: auto;
+    margin: 10px 30px 20px 85px;
+    margin-top: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: lightsteelblue; */
+} 
+.expl-main-div .row .expl-one .expl-heading p{
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+.expl-main-div .row .expl-one .expl-heading button{
+    margin-top: 10px;
+    padding: 15px 60px 14px 60px;
+    background-color: #206eb6;
+    border: 1px solid #206eb6;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.expl-main-div .row .expl-two{
+    width:auto;
+    height: auto;
+}
+.expl-main-div .row .expl-two .expl-heading{
+    width: 400px;
+    height: 500px;
+    margin: 10px 30px 20px 85px;
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: lightsteelblue; */
+} 
+.expl-main-div .row .expl-two .expl-heading h3 p, .p{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif; 
+    letter-spacing: 2px;
+    margin-top: 3px;
+}
+.expl-main-div .row .expl-two .expl-heading button{
+    margin-top: 10px;
+    padding: 15px 60px 14px 60px;
+    background-color: #206eb6;
+    border: 1px solid #206eb6;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/**** Explore Opportunities End ****/
+
+/**** You Deserve Start ****/
+
+
+.deserve-main-div{
+    width:100%;
+    height: auto;
+}
+.deserve-main-div .row .img-side{
+    width: 100%;
+    height: 1000px;
+    background-image: url('../images/side.JPG');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.deserve-main-div .row .img-side .deserve-one .deserve-heading{
+    width: auto;
+    height: 750px;
+    margin: 10px 30px 20px 50px;
+    margin-top: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    letter-spacing: 1px;
+} 
+.deserve-main-div .row .img-side .deserve-one .deserve-heading p{
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+.deserve-main-div .row .img-side .deserve-one .deserve-heading button{
+    margin-top: 69%;
+    padding: 15px 60px 14px 60px;
+    background-color: #206eb6;
+    border: 1px solid #206eb6;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.deserve-main-div .row .heading-side{
+    width: 100%;
+    height: auto;
+}
+
+
+.deserve-main-div .row .heading-side .deserve-two{
+    width: 615px;
+    height: 480px;
+    margin: 3px 0px 0 -15px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    background-color: #f2f2f2;
+    float: left;
+} 
+.deserve-main-div .row .heading-side .deserve-two .deserve-heading-two{
+    width: 450px;
+    height: 400px;
+    margin: 9% 0 0 12%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.deserve-main-div .row .heading-side .deserve-two .deserve-heading-two p{
+    font-size: 22px;
+    color: #6d6d6d;
+    letter-spacing: 1px;
+    font-family:  'Calibri', 'Trebuchet MS', sans-serif;
+}
+.deserve-main-div .row .heading-side .deserve-two .deserve-heading-two span{
+    color: #206eb6;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.deserve-main-div .row .heading-side .deserve-three{
+    width: 615px;
+    height: 514px;
+    margin: 0px 0px 0 -15px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    float: left;
+} 
+.deserve-main-div .row .heading-side .deserve-three .deserve-heading-three{
+    width: 450px;
+    height: 400px;
+    margin: 9% 0 0 12%;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+.deserve-main-div .row .heading-side .deserve-three .deserve-heading-three p{
+    font-size: 22px;
+    color: #6d6d6d;
+    letter-spacing: 1px;
+    font-family:  'Calibri', 'Trebuchet MS', sans-serif;
+}
+.deserve-main-div .row .heading-side .deserve-three .deserve-heading-three span{
+    color: #206eb6;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+/**** You Deserve End ****/
+/**** Passive Income Slider Start ****/
+
+.income-slider{
+    width:100%;
+    height: auto;
+    display: inline-block;
+    background-color:#f2f2f2;
+}
+.income-slider .slide{
+    margin-top: 15%;
+}
+.income-btn{
+    margin: 5%;
+    padding: 18px 50px 17px 50px;
+    background-color: #206eb6;
+    border: 1px solid #206eb6;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/**** Passive Income Slider End ****/
+
+/**** Right Opportunity Start  ***/
+.right-main-div{
+    width:100% 100%;
+    height: auto;
+    background-color:#202020;
+}   
+.right-main-div .right-one .right-heading{
+    width: auto;
+    height: auto;
+    margin: 25% 10% 10% 10%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    letter-spacing: 1px;
+    display: inline-block;
+
+}
+.right-main-div .right-one .right-heading p{
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.right-main-div .right-one .right-heading button{
+    margin-top: 60%;
+    padding: 15px 60px 14px 60px;
+    background-color: #206eb6;
+    border: 1px solid #206eb6;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right-two-div{
+    width:100%;
+    height: auto;
+}
+.right-op-img{
+    width: 80%;
+    height: auto;
+    margin: 15% 0 0 10%;
+}
+
+/**** Right Opportunity End  ***/
+
+/*** Unclock Exclusive Start ***/
+.unclock-main-div{
+    width:100%;
+    height: auto;
+    background-color:#202020;
+
+}
+.un-ex-heading{
+    width: 80%;
+    height: 500px;
+    margin-top: 15%;
+    color: #fff;
+    display: block;
+}
+.unclock-main-div .un-ex-heading .un-h1{
+    letter-spacing: 1px;
+    font-family:  'Times New Roman', Times, serif, 'Trebuchet MS', sans-serif;
+}
+.drop{
+    margin-top: -35px;
+    margin-left: 5px;
+    border: none;
+    display: inline-block;
+}
+.drop span{
+    color: #548abb;
+    border-bottom:2px solid #548abb ;
+}
+.dropdown-menu{
+    background-color: BLACK !important;
+}
+.dropdown-item{
+    color: #fff !important;
+    font-size: 15px !important;
+}
+.dropdown-item:hover{
+    color: black !important;
+    background-color: #fff !important;
+}
+.un-btn{
+    margin: 12% 20% 0% 20%;
+    padding: 15px 85px 14px 85px;
+    background-color: #206eb6;
+    border: 1px solid #206eb6;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*** Unclock Exclusive End ***/
+
+/**** Footer Start***/
+
+.footer{
+    width:100% ;
+    height: auto;
+    background-color:#171717;
+}
+#foot-logo{
+    width: 180px;
+    height: 130px;
+    margin: 2% 5% 0 8%;
+    display: block;
+    color: #f0f0f0;
+}
+.company{
+    color: #f0f0f0;
+}
+.social-icon-i{
+    margin-left: 5px;
+    margin-top: 5%;
+    font-size: 25px;
+    color: #f0f0f0;
+}
+.foot-b{
+    width: 90%;
+    height: auto;
+    color: #f0f0f0;
+    background-color: #171717;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.copywrite-text{
+    font-family:  'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    float: left;
+}
+.ft-flex{
+    flex: 0.4;
+}
+/**** Footer End***/
+/* Support Button start */
+.support{
+    width:120px;
+    height: 40px;
+    border-radius: 50px;
+    border:1px solid #206eb6 ;
+    color: #fff;
+    font-size: 22px;
+    background-color:  #206eb6;
+    position: fixed;
+    top: 94%;
+    left: 89%;
+    right: 0px;
+}
+/* Support Button End */
+
+
+/**** End Home Page***/
+
+                /*** Invest Page Start****/
+
+/***** Image Section*****/
+
+.inv-section-img{
+    width: 100% !important;
+    height: 400px;
+    background-image: url("../images/invest-slider.JPG");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+.inv-sec-img-h1{
+    text-align: center;
+    margin-top: -5%;
+    color: #fff;
+    font-size: 40px !important;
+    font-family: 'Times New Roman', Times, serif;
+}
+.invest-slider{
+    width:100%;
+    height: auto;
+    display: inline-block;
+    background-color:#ffffff;
+}
+.inv-step-join-btn{
+    margin: 5%;
+    padding: 18px 85px 17px 85px;
+    background-color: #206eb6;
+    border: 1px solid #206eb6;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/**** BEYOND TRADITIONAL INVESTING Start ****/
+.beyond-main-div{
+    width:100%;
+    height: auto;
+    background-color:#f8f8f8;
+    color: black;
+}
+.beyond-heading{
+    width: 70%;
+    height: auto;
+   margin-top: 5%;
+}
+.inv-beyond-para{
+    font-size: 18px; 
+    font-weight: lighter;
+}
+/**** BEYOND TRADITIONAL INVESTING End ****/
+
+
+/**** Invest Right Opportunity Start  ***/
+.inv-right-main-div{
+    width:100%;
+    height: auto;
+    background-color:#ffffff;
+}   
+.inv-right-main-div .right-one .inv-right-heading{
+    width: 400px;
+    height: auto;
+    margin: 14% 10% 10% 15%;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    display: inline-block;
+    /* background-color: lightblue; */
+}
+.inv-right-main-div .right-one .inv-right-heading p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.inv-right-two-div{
+    width:100%;
+    height: auto;
+}
+.unv-bey-img{
+    width: 100%;
+    height: 85%;
+    opacity: 0.7;
+}
+/**** Right Opportunity End  ***/
+
+/***  ESTABLISHED TRACK RECORD Start  ***/
+
+
+.est-div{
+border-right: 1px solid black;
+}
+.est-btn{
+    padding: 15px 60px 15px 60px;
+    margin: 4% 10% 10% 42%;
+    background-color: #206eb6;
+    border: 1px solid #206eb6;
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/***  ESTABLISHED TRACK RECORD End  ***/
+
+/*** POPULAR QUESTIONS Start***/
+.model-div-ques{
+    width: 100%;
+    height: 70px;
+    background-color: #f8f8f8;
+    line-height: 2.5;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.model-div-ques1{
+    width: 100%;
+    height: 70px;
+    background-color: #ededed;
+    line-height: 2.5;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+}
+/*** POPULAR QUESTIONS End ***/
+
+        /****** Invest Page End******/
+
+        /*** Financing Overview Page Start****/
+
+/***** Image Section start*****/
+.over-section-img{
+    width: 100% !important;
+    height: 400px;
+    background-image: url("../images/overview-slide.JPG");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+/***** Image Section End*****/
+
+/**** YOUR PROJECT NEED Start ****/
+.over-pro-main{
+    width:100%;
+    height: 600px;
+    display: inline-block;
+    background-color:#ffffff;
+}
+.over-pro-h1{
+    margin: 10%;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman'; 
+}
+.over-pro-p{
+    font-size: 28px;
+    font-family: 'calibri';
+    font-weight: lighter; 
+    margin-top: -2%;
+}
+.over-input{
+    border: none;
+    text-align: center;
+    color: #548abb;
+    border-bottom:2px solid #548abb;
+}
+
+/**** YOUR PROJECT NEED End ****/
+
+/** REALTYMOGUL MAIN SECTION START **/
+.deserve-main-div .row .real-img-side{
+    width: 100%;
+    height: 1000px;
+    background-image: url('../images/overview-real-side-img.JPG');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.real-heading{
+    width: 65%;
+    height: 750px;
+    margin: 0px 10% 0 20%;
+    margin-top: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    letter-spacing: 1px;
+} 
+.real-p{
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-family: Arial;
+}
+.real-btn{
+    margin-top: 69%;
+    padding: 20px 15px 15px 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.real-btn:hover{
+    margin-top: 69%;
+    padding: 20px 15px 15px 20px;
+    border-radius: none !important;
+    border: 1px solid #fff;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+/*** REALTYMOGUL MAIN SECTION END ***/
+
+/**** OFFER OF FLEXIBLE FINANCING Start ****/
+
+.offer-main-div{
+    width:100%;
+    height: auto;
+    background-color:#f8f8f8;
+    color: black;
+}
+.offer-heading{
+    width:80%;
+    height: auto;
+    margin-top: 22%;
+    margin-left: 10%;
+}
+
+.offer-para{
+    font-size: 18px; 
+    font-family: 'sansSerif '; 
+    font-weight: lighter; 
+    letter-spacing: 1px;
+}
+.offer-col-two-img{
+    width:70%;
+    height:400px;
+    margin-top: 22%;
+    margin-left: 5%;
+}
+
+/**** OFFER OF FLEXIBLE FINANCING End ****/
+/**** MOGULREIT I FINANCING Start ****/
+
+.mogul-main-div{
+    width:100%;
+    height: auto;
+    color: black;
+}
+.mogul-img{
+    width: 100%;
+    height: auto;
+}
+
+/**** MOGULREIT I FINANCING End ****/
+
+/****  PRIVATE PLACEMENT FINANCING OPTIONS Card Start  ****/
+
+.over-priv-main-div{
+    width:100%;
+    height: auto;
+    background-color:#f8f8f8;
+}
+.over-priv-card-h1 ,.over-priv-card-p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+}
+.over-priv-card-p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.parent-box1{
+    width: 70%;
+    height: auto;
+    margin: 8% 5% 8% 32.4%;
+    background-color: #fff;
+}
+.parent-box2{
+    width: 70%;
+    height: auto;
+    margin: 8% 5% 8% 0%;
+    background-color: #fff;
+}
+.boxshadow{
+     padding: 10px;
+      height: 600px;
+      box-shadow: 4px 6px 7px #f5f4f4;
+      margin-top: 20px;
+      margin-bottom: 100px;
+      text-align: center;
+      transition: 0.3s;
+    }
+    .boxshadow:hover{
+      box-shadow: 4px 6px 7px#e0dfdf;
+    }
+.card-h1{
+    font-size: 19px;
+}
+.card-table{
+    padding: 20px;
+    text-align: left;
+}
+.card-table tr td{
+    padding: 20px;
+    border-top: 2px solid hsl(0, 3%, 94%);
+}
+.card-btn{
+    margin: 12% 0% 12% 0%;
+    padding: 15px 90px 15px 90px;
+    background-color: #206eb6;
+    border: 1px solid #206eb6;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/****  PRIVATE PLACEMENT FINANCING OPTIONS Card End ****/
+
+
+        /*** Financing Overview Page End****/
+
+
+        /*** Our-Story Page Start ****/
+
+/**** Center Image Start***/
+
+.story-section-img{
+    width: 100% !important;
+    height: 400px;
+    background-image: url("../images/our-story-cent-img.JPG");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+/**** OUR FOUNDING INSIGHTS Start ****/
+.story-foun-main{
+    width:100%;
+    height: auto;
+    background-color:#ffffff;
+}
+.story-fun-heading{
+    width:70%;
+    height: auto;
+    font-family: sans-serif;
+    background-color:lightblue;
+}
+.story-foun-h1{
+    margin: 12%;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman'; 
+}
+.story-foun-p{
+    text-align: center;
+    margin-top: -6%;
+    font-size: 20px;
+    font-family: 'calibri';
+    font-weight: lighter; 
+}
+.story-icon1{
+   width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+.story-icon2{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+.story-icon3{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+/**** OUR FOUNDING INSIGHTS End ****/
+
+.story-ex-img{
+    height: 600px;
+    background-image: url("../images/our-story-exclu-side-img.JPG");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/*** SEARCH FOR WELL-MANAGED Start ***/
+.search-icon-div{
+    width: 300px;
+    height: 100px;
+}
+.search-icon-para{
+    width: 220px;
+    height: 100px;
+    margin-left: 25%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/*** SEARCH FOR WELL-MANAGED End ***/
+
+/*** OUR INVESTORS DESERVE Start ***/
+.inv-des-heading{
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+    font-family: 'Times New Roman';
+}
+#inv-dese-h4{
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+.inv-des-para{
+    padding: 0px 10px 10px 10px;
+    margin-left: 5%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+/*** OUR INVESTORS DESERVE End ***/
+
+/*** LEADERSHIP TEAM Start***/
+.leader-main-div{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+.leader-boxshadow{
+    height: 380px;
+      box-shadow: 4px 6px 7px #f5f4f4;
+      margin-top: 20px;
+      margin-bottom: 100px;
+      text-align: center;
+      transition: 0.3s;
+      color:#5d5d5d;
+      background-color: #f8f8f8;
+    }
+.leader-boxshadow:hover{
+      box-shadow: 4px 6px 7px  #e0dfdf;
+      transform:translateY(-20px);
+    }
+.leader-boxshadow h3{
+      padding: 7px;
+    }
+.leader-pic{
+      width: 40%;
+      height:150px;
+      margin-top: 15%;
+    }
+/*** LEADERSHIP TEAM End***/
+
+/**** OUR HEADQUARTERS Start ****/
+.head-quater{
+    width: 100%;
+    height: auto;
+    margin: 10px 30px 20px 30px;
+    margin-top: 10%;
+}
+.leader-heading{
+    width: auto;
+    height: auto;
+    margin: 10px 30px 20px 0px;
+    margin-top: 25%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.leader-para{
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+}
+/**** OUR HEADQUARTERS End ****/
+
+        /*** Our-Story Page End ****/
+
+        
+        /**** Sign In Page Start ****/
+.signIn-main-div{
+    width: 50%;
+    height: 900px;
+    margin-left: 10%;
+
+}
+.sigIn-h1{
+    margin-top: 10%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.label{
+    font-family: sans-serif !important;
+    color: lightgrey;
+}
+.email{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    border-radius: 0;
+    background-color: none !important;
+}
+.email:focus{
+    border: none;
+    border-bottom: 1px solid #b56a42;
+    border-radius: 0;
+    background-color: none !important;
+}
+
+        /**** Sign In Page End ****/
+
+        /**** Join Page Start ****/
+.join-main-div{
+    width: 100%;
+    height: auto;
+}
+
+.radio{
+    width: auto;
+    padding: 20px;
+    margin: 10px;
+    height: 60px;
+    font-family: sans-serif;
+}
+
+.join-side-div{
+    width: 100%;
+    height: auto;
+    border-left: 1px solid lightgray;
+    margin-top: 5%;
+
+}
+.join-para{
+    margin-top: -5%;
+    margin-left: 50px;
+    font-size: 15px;
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+
+        /**** Join Page End ****/
+
+
+
